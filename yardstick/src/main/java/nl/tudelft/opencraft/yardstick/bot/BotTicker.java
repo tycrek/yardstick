@@ -89,4 +89,7 @@ public class BotTicker implements Runnable {
         }
     }
 
+    public boolean isRunning() {
+        return this.running.get();
+    }
 }
