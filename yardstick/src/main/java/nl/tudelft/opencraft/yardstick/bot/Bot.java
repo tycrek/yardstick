@@ -72,6 +72,10 @@ public class Bot {
         this(protocol, new Client(host, port, protocol, new TcpSessionFactory()));
     }
 
+    public BotTicker getTicker() {
+        return ticker;
+    }
+
     /**
      * Creates a new bot with the given {@link MinecraftProtocol} and {@link Client}.
      *
