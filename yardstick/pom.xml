@@ -37,6 +37,16 @@
 
     <repositories>
         <repository>
+            <id>pork</id>
+            <url>https://maven.daporkchop.net/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
             <id>opencraft-group</id>
             <url>https://opencraft-vm.labs.vu.nl/nexus/repository/opencraft-group/</url>
             <releases>
@@ -84,8 +94,8 @@
         <!-- MCProtocolLib -->
         <dependency>
             <groupId>com.github.Steveice10</groupId>
-            <artifactId>MCProtocolLib</artifactId>
-            <version>1.12.2-2</version>
+            <artifactId>mcprotocollib</artifactId>
+            <version>1.12.2-toobeetooteebot-SNAPSHOT</version>
         </dependency>
 
         <!-- Prometheus -->
